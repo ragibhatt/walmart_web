@@ -27,7 +27,7 @@ if(isset($_POST['reg'])){
                     }
                     if(isset($_POST['m1_contact'])){
                         $_SESSION['m1_contact']=$_POST['m1_contact'];
-                        $sponser_number=$_SESSION['m1_contact'];
+                        $m1_contact=$_SESSION['m1_contact'];
                             }
                             if(isset($_POST['m2_name'])){
                                 $_SESSION['m2_name']=$_POST['m2_name'];
@@ -38,10 +38,7 @@ if(isset($_POST['reg'])){
                                         $_SESSION['m2_email']=$_POST['m2_email'];
                                         $m2_email=$_SESSION['m2_email'];
                                             }
-                                            if(isset($_POST['m2_email'])){
-                                                $_SESSION['m2_email']=$_POST['m2_email'];
-                                                $m2_email=$_SESSION['m2_email'];
-                                                    }
+                                          
                                                     if(isset($_POST['m2_contact'])){
                                                         $_SESSION['m2_contact']=$_POST['m2_contact'];
                                                         $m2_contact=$_SESSION['m2_contact'];

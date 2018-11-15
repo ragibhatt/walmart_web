@@ -667,7 +667,7 @@ if ($result) {
 	<div id="agenda">
 	<section class="container-fluid agenda">
     <h1 class="font-weight-bold text-white text-center pt-5">AGENDA OF THE EVENT</h1>
-    <div class="line" style="height:200px; width:100%; background-color:white;"></div>
+    <!-- <div class="line" style="height:200px; width:100%; background-color:white;"></div> -->
 		<div class="row">
 
 			<div class="col-sm-12"  style="transform: translateY(-550px); ">
